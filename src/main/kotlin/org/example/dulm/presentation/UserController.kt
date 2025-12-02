@@ -1,11 +1,8 @@
 package org.example.dulm.presentation
 
 import org.example.dulm.application.user.UserService
-import org.example.dulm.domain.user.User
-import org.example.dulm.exception.ErrorResponse
-import org.example.dulm.presentation.dto.request.SignUpRequest
-import org.example.dulm.presentation.dto.response.UserResponse
-import org.springframework.http.ResponseEntity
+import org.example.dulm.presentation.user.dto.request.SignUpRequest
+import org.example.dulm.presentation.user.dto.response.UserResponse
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping

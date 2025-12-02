@@ -1,4 +1,4 @@
-package org.example.dulm.exception
+package org.example.dulm.global.error
 
 enum class ErrorCode (
     val message : String,

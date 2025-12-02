@@ -1,4 +1,4 @@
-package org.example.dulm.presentation.dto.response
+package org.example.dulm.presentation.user.dto.response
 
 import org.example.dulm.domain.user.User
 

@@ -1,4 +1,4 @@
-package org.example.dulm.exception
+package org.example.dulm.global.error
 
 open class BaseException (
     val errorCode : ErrorCode

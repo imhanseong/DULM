@@ -3,9 +3,9 @@ package org.example.dulm.application.user
 import org.example.dulm.application.user.port.`in`.UserUseCase
 import org.example.dulm.application.user.port.out.UserRepository
 import org.example.dulm.domain.user.User
-import org.example.dulm.exception.BaseException
-import org.example.dulm.exception.ErrorCode
-import org.example.dulm.presentation.dto.response.UserResponse
+import org.example.dulm.global.error.BaseException
+import org.example.dulm.global.error.ErrorCode
+import org.example.dulm.presentation.user.dto.response.UserResponse
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Service
 
